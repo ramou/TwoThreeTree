@@ -1,4 +1,4 @@
-package coen352.tree;
+package coen352;
 
 public class Driver {
 
@@ -6,11 +6,18 @@ public class Driver {
 		// TODO Auto-generated method stub
 		TwoThreeTree tree = new TwoThreeTree();
 		tree.add(10);
+		System.out.println(tree.root);
 		tree.add(20);
+		System.out.println(tree.root);
 		tree.add(15);
+		System.out.println(tree.root);
 		tree.add(12);
+		System.out.println(tree.root);
 		tree.add(11);
-		
+		System.out.println(tree.root);
+		tree.add(21);
+		System.out.println(tree.root);
+		tree.add(22);
 		System.out.println(tree.root);
 	}
 

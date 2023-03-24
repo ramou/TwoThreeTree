@@ -1,5 +1,4 @@
-package coen352.tree;
-
+package coen352;
 public class TwoThreeTree {
 	
 	Node root;
@@ -14,7 +13,7 @@ public class TwoThreeTree {
 		if(root == null) {
 			root = new Node(val);
 		} else {
-			root = root.add(val, null);
+			root = root.add(val);
 		}
 		
 		
